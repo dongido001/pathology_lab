@@ -1,25 +1,26 @@
-    !!!READ ME!!
-How To import the Application Database:
+# How To import the Application Database:
 
 - Extract the file "Software Engineer -PHP.zip "
 
 - Open and Copy the file path.sql in "sql" folder with any text editor.
 
-- Goto you database with phpmyadmin: eg: localhost/phpmyadmin.
+- Goto your database with phpmyadmin: eg: localhost/phpmyadmin.
 
 - Create a database named : "path"
 
 - Click on the 'sql' tab at the top of the phpmyadmin interface.
 
-- Paste the content you copied to the text Box and Click on GO or save. ( You should get a successfull message)
+- Paste the content you copied to the text Box and Click on go or save. ( You should get a successfull message )
 
-- The Open applicaion/config/database.php, then set the content of this example
- 	
+- Then Open applicaion/config/database.php, then set the content of this example
+ 
+ ```php
  	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => '',
 	'database' => 'path',
-to the correct information
+```
+to the correct information.
 
 
   
